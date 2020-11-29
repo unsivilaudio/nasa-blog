@@ -1,0 +1,23 @@
+.CategoryList {
+    width: 60vw;
+    margin: 3rem auto;
+
+    .Header {
+        background: #aaa;
+        color: #efede3;
+        padding: 1rem 2.2rem;
+        font-size: 3rem;
+        font-family: 'Space Grotesk', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .List {
+        list-style: none;
+
+        li:nth-child(even) {
+            background: #ccc;
+        }
+    }
+}

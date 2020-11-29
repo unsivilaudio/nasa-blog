@@ -31,8 +31,8 @@ const App = props => {
         </main>
     );
 
-    if (selectedCat !== '' && items) {
-        content = <CategoryList item={items} />;
+    if (selectedCat !== '') {
+        content = <CategoryList items={items} />;
     }
 
     return (
