@@ -1,0 +1,32 @@
+.Navbar {
+    background: linear-gradient(to bottom right, #fe3add, #d3abdd);
+    width: 100%;
+    padding: 1rem 3.5rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .Brand {
+        text-transform: uppercase;
+        font-family: 'Space Grotesk', sans-serif;
+        font-size: 3rem;
+        color: #3added;
+
+        span {
+            color: #efede8;
+        }
+    }
+
+    .NavList {
+        list-style: none;
+        display: flex;
+
+        .Text {
+            color: #efdeef;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-right: 1rem;
+        }
+    }
+}
